@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<input type="number" placeholder="enter a value" id="d1">
+<input type="number" placeholder="enter a value" id="d2">
+<button onclick="sum()" >add</button>
+<label id="p"></label>
+<script>
+    function sum()
+    {
+        var a=parseInt(document.getElementById("d1").value);
+        var b=parseInt(document.getElementById("d2").value);
+        var c=a+b;
+        document.getElementById("p").innerHTML=c;
+    }
+</script>
+</body>
+</html>
+
