@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+
+
+<p id="demo1"></p>
+
+<p id="demo2"></p>
+
+<script>
+const cars = [];
+
+
+function f()
+{
+
+
+for(var i=0;i<3;i++)
+{
+cars[i]=parseInt(prompt("enter a value"));
+}
+document.getElementById("demo1").innerHTML = cars;
+cars.sort(function(a, b){return a-b});
+document.getElementById("demo2").innerHTML = cars;
+
+}
+f();
+</script>
+
+</body>
+</html>
+
